@@ -1,0 +1,148 @@
+/* navbar.css */
+
+.navbar {
+    background: linear-gradient(to bottom, #909494, #758288);
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #1f1f1f;
+}
+
+
+/* body.css */
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+/* dashboard.css */
+
+.about {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about img {
+    max-width: 200px;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+/* profile.css */
+
+header {
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.profile {
+    text-align: center;
+    margin: 2rem;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #dddddd;
+}
+
+.profile h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile p {
+    color: #777;
+}
+
+
+/* .details {
+    background-color: #fefefe;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details li {
+    margin-bottom: .5rem;
+}
+
+.about-me {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-me p {
+    line-height: 1.6;
+}
+
+
+/* univ.css */
+
+.univ img {
+    width: 150px;
+    height: 150px;
+}
+
+.content {
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 2rem;
+}
